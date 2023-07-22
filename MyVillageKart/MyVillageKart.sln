@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVillageKart", "MyVillageKart.csproj", "{B98A0994-14B5-48E2-AABE-CE1653DA1D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVillageKart", "MyVillageKart.csproj", "{B98A0994-14B5-48E2-AABE-CE1653DA1D26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyVillageKartAPI", "..\MyVillageKartAPI\MyVillageKartAPI.csproj", "{CBAAD20D-3AF0-4072-B1C8-C6409866941D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVillageKartAPI", "..\MyVillageKartAPI\MyVillageKartAPI.csproj", "{CBAAD20D-3AF0-4072-B1C8-C6409866941D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
