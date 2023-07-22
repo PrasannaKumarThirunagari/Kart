@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVillageKart", "MyVillageKart.csproj", "{B98A0994-14B5-48E2-AABE-CE1653DA1D26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyVillageKartAPI", "..\MyVillageKartAPI\MyVillageKartAPI.csproj", "{CBAAD20D-3AF0-4072-B1C8-C6409866941D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98A0994-14B5-48E2-AABE-CE1653DA1D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98A0994-14B5-48E2-AABE-CE1653DA1D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98A0994-14B5-48E2-AABE-CE1653DA1D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98A0994-14B5-48E2-AABE-CE1653DA1D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAAD20D-3AF0-4072-B1C8-C6409866941D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAAD20D-3AF0-4072-B1C8-C6409866941D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAAD20D-3AF0-4072-B1C8-C6409866941D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAAD20D-3AF0-4072-B1C8-C6409866941D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30C20613-99BC-4AA3-8B28-5FC2CED674D4}
+	EndGlobalSection
+EndGlobal
