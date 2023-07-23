@@ -19,7 +19,6 @@ namespace MyVillageKart.Controllers
             DataAccessManager data = new DataAccessManager();
             var response = data.Getuser();
             ViewBag.Data = response;
-
             return View();
         }
 
