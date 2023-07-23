@@ -1,8 +1,14 @@
 //using MyVillageKartAPI.MyVillageKartDataAccess;
 //using MyVillageKartAPI.MyVillageKartDataManager;
 
+using MyVillageKartAPI.DataInterface;
+using MyVillageKartAPI.DataManager;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IProductsDataManager, ProductsDataManager>();
+builder.Services.AddScoped<IUserDataManager, UserDataManager>();
+builder.Services.AddScoped<ICategoriesDataManager, CategoriesDataManager>();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -16,8 +22,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+	app.UseSwagger();
+	app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

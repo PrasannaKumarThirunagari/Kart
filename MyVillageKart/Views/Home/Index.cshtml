@@ -1,16 +1,39 @@
 ﻿@{
 	ViewData["Title"] = "Home Page";
-	List<string> data = (List<string>)ViewBag.Data;
+	List<Categories> data = (List<Categories>)ViewBag.Data;
 }
 
 <div class="text-center">
 	<h1 class="display-4">Welcome</h1>
 	<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 
-	<ul>
-		@foreach (var item in data)
-		{
-			<li>@item</li>
-		}
+	<table class="table">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Category Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in data)
+			{
+				<tr>
+					<td>@item.CategoriesID</td>
+					<td>
+						<div class="row">@item.CategoriesName</div>
+						<div class="row">
+							<ol>
+								@foreach (var prod in item.ProductsList)
+								{
+									<li>@prod.ProductName</li>
+								}
+							</ol>
+						</div>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+	<ul title="Categories">
 	</ul>
 </div>
