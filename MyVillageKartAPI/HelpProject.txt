@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext 'SERVER=SAHASRATHIRUNAG;DATABASE=Kart;Integrated Security=True;Encrypt=False;' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir EntityModels
